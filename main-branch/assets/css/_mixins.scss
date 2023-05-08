@@ -1,0 +1,17 @@
+
+/*@Media Query Mixin*/
+@mixin mQ($arg...){
+	@if length($arg) == 1{
+		@media screen and (max-width:$arg){
+			@content;
+		}
+	}
+	@if length($arg) == 2{
+		@media screen and (max-width:nth($arg, 1)) and (min-width:nth($arg, 2)){
+			@content;
+		}
+	}
+}
+/*@Media Query Mixin End*/
+
+
