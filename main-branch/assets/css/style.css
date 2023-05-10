@@ -1124,6 +1124,28 @@ header .navbar .navbar-collapse ul li:last-child::after {
   }
 }
 
+.map-mob {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.map-mob .mob-map-contain {
+  overflow: hidden;
+  position: relative;
+  bottom: -2rem;
+}
+.map-mob .mob-map-contain .map-img {
+  max-width: 185%;
+  height: auto;
+  transform: translateX(-75px);
+}
+.map-mob .mob-map-contain .btn {
+  padding: 8px 16px !important;
+  font-size: 12px;
+  position: absolute;
+  bottom: 4%;
+  right: 3%;
+}
+
 .connectivity {
   background-image: url("../img/connectivity/01.jpg");
   background-repeat: no-repeat;
