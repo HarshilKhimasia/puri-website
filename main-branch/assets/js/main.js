@@ -106,15 +106,6 @@ $('.connectivity-carousel').owlCarousel({
 })
 // connectivity carousel end
 
-// lightgallery medium zoom
-lightGallery(document.getElementById('animated-thumbnails'), {
-    thumbnail: false,
-    zoomFromOrigin: true,
-    selector: '.blog-images'
-});
-
-// header animation starts
-
 let prevScrollpos = window.pageYOffset;
 
 window.onscroll = function () {
