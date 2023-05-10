@@ -1412,6 +1412,7 @@ header {
     }
 
     .blog-images {
+        cursor: pointer !important;
 
         .hover-effect {
             &::after {
@@ -1429,11 +1430,11 @@ header {
                 color: red;
                 background-size: 35px;
                 box-shadow: 1px 3px 20px 1px #88888894;
-                filter: invert(1);
-                opacity: 0;
+                
+                opacity: 1;
                 border-radius: 0%;
                 top: 50%;
-                background-color: #ffffff70;
+                background-color: transparent;
                 background-position: center;
                 left: 50%;
                 transform: translate(-50%, -50%);
@@ -1459,7 +1460,7 @@ header {
                         color: red;
                         background-size: 35px;
                         box-shadow: 1px 3px 20px 1px #88888894;
-                        filter: invert(1);
+                       
                         border-radius: 0%;
                         opacity: 1;
                         top: 50%;

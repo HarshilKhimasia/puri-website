@@ -1277,6 +1277,9 @@ header .navbar .navbar-collapse ul li:last-child::after {
     width: 100%;
   }
 }
+.plans .blog-images {
+  cursor: pointer !important;
+}
 .plans .blog-images .hover-effect::after {
   content: "";
   background-image: url("../img/expand.svg");
@@ -1286,11 +1289,10 @@ header .navbar .navbar-collapse ul li:last-child::after {
   color: red;
   background-size: 35px;
   box-shadow: 1px 3px 20px 1px rgba(136, 136, 136, 0.5803921569);
-  filter: invert(1);
-  opacity: 0;
+  opacity: 1;
   border-radius: 0%;
   top: 50%;
-  background-color: rgba(255, 255, 255, 0.4392156863);
+  background-color: transparent;
   background-position: center;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -1313,7 +1315,6 @@ header .navbar .navbar-collapse ul li:last-child::after {
   color: red;
   background-size: 35px;
   box-shadow: 1px 3px 20px 1px rgba(136, 136, 136, 0.5803921569);
-  filter: invert(1);
   border-radius: 0%;
   opacity: 1;
   top: 50%;
