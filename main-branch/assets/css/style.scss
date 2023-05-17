@@ -773,7 +773,7 @@ header {
 
 // overview start
 .overview {
-    background-image: url('../img/overview/bg.jpg');
+    background-image: url('../img/overview/bg.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -1272,7 +1272,7 @@ header {
 
 // Connectivity start
 .connectivity {
-    background-image: url('../img/connectivity/01.jpg');
+    background-image: url('../img/connectivity/01.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -1962,3 +1962,87 @@ button {
         
     }
 }
+
+
+
+#thank-you {
+    text-align: center;
+    height: 100vh;
+    padding: 11% 0;
+    background-image: url(../img/footer-images/bg.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 10;
+  }
+  
+  @media screen and (max-width: 999px) {
+    #thank-you {
+      padding: 27% 0 0;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    #thank-you {
+      padding: 30% 0 0;
+    }
+  }
+  
+  #thank-you .thank .img {
+    width: 30%;
+    margin: 0 auto;
+  }
+  
+  @media screen and (max-width: 999px) {
+    #thank-you .thank .img {
+      width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    #thank-you .thank .img {
+      width: 80%;
+    }
+  }
+  
+  #thank-you h3 {
+    font-size: 3.5em;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+  }
+  
+  @media screen and (max-width: 999px) {
+    #thank-you h3 {
+      font-size: 2.5em;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    #thank-you h3 {
+      font-size: 2em;
+    }
+  }
+  
+  #thank-you p {
+    font-size: 1.2em;
+    color: #fff;
+  }
+  
+  @media screen and (max-width: 500px) {
+    #thank-you p {
+      font-size: 0.9em;
+    }
+  }
+  
+
+
+  footer{
+    .form-control{
+        color: #fff;
+        &::placeholder, &:focus{
+            color: #fff;
+        }
+    }
+  }

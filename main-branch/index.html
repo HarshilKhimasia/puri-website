@@ -1,825 +1,810 @@
 <!doctype html>
 <html lang="en">
-
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="assets/css/style.scss">
-
-  <!-- owl carousel -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
-    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <!-- light gallery medium zoom -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/css/lightgallery.min.css"
-    integrity="sha512-F2E+YYE1gkt0T5TVajAslgDfTEUQKtlu4ralVq78ViNxhKXQLrgQLLie8u1tVdG2vWnB3ute4hcdbiBtvJQh0g=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-  <!-- wow js -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-
-  <!-- aos -->
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-  <!-- material font -->
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-
-  <title>Puri</title>
-  <link rel="icon" type="image/fav-icon" href="./assets/img/favicon.png">
-</head>
-
-<body>
-  <!-- Menu start -->
-  <header class="main-header" id="menu">
-    <nav class="navbar navbar-expand-lg navbar-light" id="top-nav">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="assets/img/logo.png" alt="logo">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#overview">Overview</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#amenities">Sky Life</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#podium">Podium</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#map">Location</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#plans">Plans</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#footer">Contact Us</a>
-            </li>
-
-          </ul>
-
-        </div>
-      </div>
-    </nav>
-  </header>
-  <!-- Menu end -->
-
-  <!-- hero section start -->
-  <section class="hero">
-    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-      <div class="carousel-inner position-relative">
-        <div class="position-absolute down-arrow d-none d-lg-block">
-          <a href="#luxury">
-            <div class="position-relative"><img src="assets/img/banner/shape-1.png" alt="shape"><img
-                src="assets/img/banner/down-arrow.png" class="position-absolute down-img" alt="down-arrow"></div>
-          </a>
-        </div>
-        <div class="carousel-item position-relative active" data-bs-interval="5000">
-          <img src="assets/img/banner/03.jpg" class="d-block w-100 baner-img" alt="...">
-          <img src="assets/img/banner/text.png" class="position-absolute text-img fade-from-left" alt="...">
-        </div>
-        <div class="carousel-item" data-bs-interval="5000">
-          <img src="assets/img/banner/02.jpg" class="d-block w-100 baner-img" alt="...">
-          <img src="assets/img/banner/text2.png" class="position-absolute second-third-img text-img fade-from-left"
-            alt="...">
-        </div>
-        <div class="carousel-item" data-bs-interval="5000">
-          <img src="assets/img/banner/01.jpg" class="d-block w-100 baner-img" alt="...">
-          <img src="assets/img/banner/text3.png" class="position-absolute second-third-img text-img fade-from-left"
-            alt="...">
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-  </section>
-  <!-- hero section end -->
-
-  <!-- world of luxuries section start -->
-  <section
-    class="luxuries position-relative d-none d-lg-flex align-items-md-end align-items-center justify-content-md-around"
-    id="luxury">
-    <div class="w-100 main-block mb-md-5 d-none d-lg-flex">
-      <div class="w-35 world-luxuries" data-aos="fade-up" data-aos-duration="1000">
-        <h2 class="avenir-regular txt-clr-2 size-36 m-0 world-animate">A
-          World of<br>Absolute Luxuries</h2>
-      </div>
-      <div class="w-100 d-flex justify-content-between">
-        <ul class="d-flex flex-column flex-md-row align-items-start justify-content-lg-evenly align-items-lg-end w-100">
-          <li class="avenir-regular txt-clr-2 size-18" data-aos="fade-up" data-aos-duration="1000">Grand Arrival Lobby
-          </li>
-          <li class="avenir-regular txt-clr-2 size-18" data-aos="fade-up" data-aos-duration="1000">Reception & Waiting
-            Lounge</li>
-          <li class="avenir-regular txt-clr-2 size-18" data-aos="fade-up" data-aos-duration="1000">Bell Carts</li>
-          <li class="avenir-regular txt-clr-2 size-18" data-aos="fade-up" data-aos-duration="1000">Concierge Desk</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-  <section
-    class="panorama position-relative d-flex d-lg-none align-items-md-end align-items-center justify-content-md-around"
-    id="luxury">
-    <img src="assets/img/lobby.jpg" class="lobby-move" id="lobby-mover" alt="lobby">
-    <span class="material-symbols-outlined" id="hand">
-      swipe
-    </span>
-  </section>
-  <section class="mob-luxuries position-relative align-items-md-end align-items-center d-flex d-lg-none" id="luxury">
-    <div class=" main-block mb-lg-5 d-flex d-lg-none">
-      <div class="w-35 world-luxuries" data-aos="fade-up" data-aos-duration="1000">
-        <h2 class="avenir-regular txt-clr-2 size-36 m-0 world-animate">A
-          World of<br>Absolute Luxuries</h2>
-      </div>
-      <div class=" d-flex justify-content-between">
-        <ul class="d-flex flex-column  align-items-start justify-content-lg-evenly align-items-lg-end w-100">
-          <li class="avenir-regular txt-clr-2 size-18" data-aos="fade-up" data-aos-duration="1000">Grand Arrival Lobby
-          </li>
-          <li class="avenir-regular txt-clr-2 size-18" data-aos="fade-up" data-aos-duration="1000">Reception & Waiting
-            Lounge</li>
-          <li class="avenir-regular txt-clr-2 size-18" data-aos="fade-up" data-aos-duration="1000">Bell Carts</li>
-          <li class="avenir-regular txt-clr-2 size-18" data-aos="fade-up" data-aos-duration="1000">Concierge Desk</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-  <!-- world of luxuries section end -->
-
-  <section class="white-space d-none d-lg-block">
-
-  </section>
-
-  <!-- overview start -->
-  <section class="overview" id="overview">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-12 col-lg-6 ps-lg-0 pe-lg-0 overflow-hidden">
-          <div class="img-block mt-3 mt-lg-auto">
-            <img src="assets/img/overview/01.jpg" class="w-md-auto w-lg-auto" alt="">
-          </div>
-        </div>
-        <div class="col-12 col-lg-6 d-flex flex-column justify-content-center overview-col">
-          <span class="avenir-regular txt-clr-2 size-16 ltr-spc-3 font-600" data-aos="fade-up"
-            data-aos-duration="1000">Overview</span>
-          <h1 class="avenir-regular txt-clr-2 size-40 land-mark" data-aos="fade-up" data-aos-duration="1000">A Landmark
-            That Rises<br>Up to Your Expectations</h1>
-          <ul data-aos="fade-up" data-aos-duration="1000">
-            <li class="avenir-regular txt-clr-2 size-16">Architectural Marvel Standing G+16 Storeys Tall.<br>Spread
-              Across 0.79 Acres (Approx).</li>
-            <li class="avenir-regular txt-clr-2 size-16">Free Hold Land</li>
-            <li class="avenir-regular txt-clr-2 size-16">Grand Air-conditioned Entrance Lobby</li>
-            <li class="avenir-regular txt-clr-2 size-16">Podium Car Parking With Ramp</li>
-            <li class="avenir-regular txt-clr-2 size-16">First Habitable Floor Starts at Level 6</li>
-            <li class="avenir-regular txt-clr-2 size-16">Premium Residences With Sundecks Across 11 Levels</li>
-            <li class="avenir-regular txt-clr-2 size-16">Superlative Sky Life Indulgences</li>
-          </ul>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-12 pb-5">
-            <h2 class="avenir-regular txt-clr-2 size-32 text-center my-5" data-aos="fade-up" data-aos-duration="1000">A
-              Seamless Blend of Sophistication and Style
-            </h2>
-            <!-- overview carousel start -->
-            <div class="owl-overview owl-carousel owl-theme">
-              <div class="item">
-                <div>
-                  <img src="assets/img/overview/icon-1.png" alt="">
-                  <h3 class="avenir-regular txt-clr-2 size-16 text-center">2 Levels Podium Car Parking With Ramp</h3>
-                </div>
-              </div>
-              <div class="item">
-                <div>
-                  <img src="assets/img/overview/icon-2.png" alt="">
-                  <h3 class="avenir-regular txt-clr-2 size-16 text-center">Infinity-edge Aqua Pool</h3>
-                </div>
-              </div>
-              <div class="item">
-                <div>
-                  <img src="assets/img/overview/icon-3.png" alt="">
-                  <h3 class="avenir-regular txt-clr-2 size-16 text-center">10.5 ft Floor to Ceiling Height</h3>
-                </div>
-              </div>
-              <div class="item">
-                <div>
-                  <img src="assets/img/overview/icon-4.png" alt="">
-                  <h3 class="avenir-regular txt-clr-2 size-16 text-center">EV Charging Points</h3>
-                </div>
-              </div>
-              <div class="item">
-                <div>
-                  <img src="assets/img/overview/icon-5.png" alt="">
-                  <h3 class="avenir-regular txt-clr-2 size-16 text-center">Free Hold Land</h3>
-                </div>
-              </div>
-              <div class="item">
-                <div>
-                  <img src="assets/img/overview/icon-6.png" alt="">
-                  <h3 class="avenir-regular txt-clr-2 size-16 text-center">Solar Panels</h3>
-                </div>
-              </div>
-              <div class="item">
-                <div>
-                  <img src="assets/img/overview/icon-7.png" alt="">
-                  <h3 class="avenir-regular txt-clr-2 size-16 text-center">35+ Lifestyle Amenities on Podium & Sky Level
-                    (Velvet Club)</h3>
-                </div>
-              </div>
-              <div class="item">
-                <div>
-                  <img src="assets/img/overview/icon-8.png" alt="">
-                  <h3 class="avenir-regular txt-clr-2 size-16 text-center">Jain Derasar and Haveli 100 Mtrs From Site
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Bootstrap CSS -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <link rel="stylesheet" href="assets/css/style.css">
+      <link rel="stylesheet" href="assets/css/style.scss">
+      <!-- owl carousel -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+         integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+         crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+         integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+         crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <!-- light gallery medium zoom -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/css/lightgallery.min.css"
+         integrity="sha512-F2E+YYE1gkt0T5TVajAslgDfTEUQKtlu4ralVq78ViNxhKXQLrgQLLie8u1tVdG2vWnB3ute4hcdbiBtvJQh0g=="
+         crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <!-- wow js -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+      <!-- aos -->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <!-- material font -->
+      <link rel="stylesheet"
+         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+      <link rel="stylesheet"
+         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+      <title>Puri</title>
+      <link rel="icon" type="image/fav-icon" href="./assets/img/favicon.png">
+   </head>
+   <body>
+      <!-- Menu start -->
+      <header class="main-header" id="menu">
+         <nav class="navbar navbar-expand-lg navbar-light" id="top-nav">
+            <div class="container-fluid">
+               <a class="navbar-brand" href="#">
+               <img src="assets/img/logo.png" alt="logo">
+               </a>
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                     <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#hero-home">Home</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#overview">Overview</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#amenities">Sky Life</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#podium">Podium</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#map">Location</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#plans">Plans</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#footer">Contact Us</a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+      </header>
+      <!-- Menu end -->
+      <!-- hero section start -->
+      <section class="hero" id="hero-home">
+         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner position-relative">
+               <div class="position-absolute down-arrow d-none d-lg-block">
+                  <a href="#luxury">
+                     <div class="position-relative"><img src="assets/img/banner/shape-1.png" alt="shape"><img
+                        src="assets/img/banner/down-arrow.png" class="position-absolute down-img" alt="down-arrow"></div>
+                  </a>
+               </div>
+               <div class="carousel-item position-relative active" data-bs-interval="5000">
+                  <img src="assets/img/banner/03.jpg" class="d-block w-100 baner-img" alt="...">
+                  <img src="assets/img/banner/text.png" class="position-absolute text-img fade-from-left" alt="...">
+               </div>
+               <div class="carousel-item" data-bs-interval="5000">
+                  <img src="assets/img/banner/02.jpg" class="d-block w-100 baner-img" alt="...">
+                  <img src="assets/img/banner/text2.png" class="position-absolute second-third-img text-img fade-from-left"
+                     alt="...">
+               </div>
+               <div class="carousel-item" data-bs-interval="5000">
+                  <img src="assets/img/banner/01.jpg" class="d-block w-100 baner-img" alt="...">
+                  <img src="assets/img/banner/text3.png" class="position-absolute second-third-img text-img fade-from-left"
+                     alt="...">
+               </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+         </div>
+      </section>
+      <!-- hero section end -->
+      <!-- world of luxuries section start -->
+      <section
+         class="luxuries position-relative d-none d-lg-flex align-items-md-end align-items-center justify-content-md-around"
+         id="luxury">
+         <div class="w-100 main-block mb-md-5 d-none d-lg-flex">
+            <div class="w-35 world-luxuries" data-aos="fade-up" data-aos-duration="1000">
+               <h2 class="avenir-regular txt-clr-2 size-36 m-0 world-animate">A
+                  World of<br>Absolute Luxuries
+               </h2>
+            </div>
+            <div class="w-100 d-flex justify-content-between">
+               <ul class="d-flex flex-column flex-md-row align-items-start justify-content-lg-evenly align-items-lg-end w-100">
+                  <li class="avenir-regular txt-clr-2 size-18" data-aos="fade-up" data-aos-duration="1000">Grand Arrival Lobby
+                  </li>
+                  <li class="avenir-regular txt-clr-2 size-18" data-aos="fade-up" data-aos-duration="1000">Reception & Waiting
+                     Lounge
+                  </li>
+                  <li class="avenir-regular txt-clr-2 size-18" data-aos="fade-up" data-aos-duration="1000">Bell Carts</li>
+                  <li class="avenir-regular txt-clr-2 size-18" data-aos="fade-up" data-aos-duration="1000">Concierge Desk</li>
+               </ul>
+            </div>
+         </div>
+      </section>
+      <section
+         class="panorama position-relative d-flex d-lg-none align-items-md-end align-items-center justify-content-md-around"
+         id="luxury">
+         <img src="assets/img/lobby.jpg" class="lobby-move" id="lobby-mover" alt="lobby">
+         <span class="material-symbols-outlined" id="hand">
+         swipe
+         </span>
+      </section>
+      <section class="mob-luxuries position-relative align-items-md-end align-items-center d-flex d-lg-none" id="luxury">
+         <div class=" main-block mb-lg-5 d-flex d-lg-none">
+            <div class="w-35 world-luxuries" data-aos="fade-up" data-aos-duration="1000">
+               <h2 class="avenir-regular txt-clr-2 size-36 m-0 world-animate">A
+                  World of<br>Absolute Luxuries
+               </h2>
+            </div>
+            <div class=" d-flex justify-content-between">
+               <ul class="d-flex flex-column  align-items-start justify-content-lg-evenly align-items-lg-end w-100">
+                  <li class="avenir-regular txt-clr-2 size-18" data-aos="fade-up" data-aos-duration="1000">Grand Arrival Lobby
+                  </li>
+                  <li class="avenir-regular txt-clr-2 size-18" data-aos="fade-up" data-aos-duration="1000">Reception & Waiting
+                     Lounge
+                  </li>
+                  <li class="avenir-regular txt-clr-2 size-18" data-aos="fade-up" data-aos-duration="1000">Bell Carts</li>
+                  <li class="avenir-regular txt-clr-2 size-18" data-aos="fade-up" data-aos-duration="1000">Concierge Desk</li>
+               </ul>
+            </div>
+         </div>
+      </section>
+      <!-- world of luxuries section end -->
+      <section class="white-space d-none d-lg-block">
+      </section>
+      <!-- overview start -->
+      <section class="overview" id="overview">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-12 col-lg-6 ps-lg-0 pe-lg-0 overflow-hidden">
+                  <div class="img-block mt-3 mt-lg-auto">
+                     <img src="assets/img/overview/01.jpg" class="w-md-auto w-lg-auto" alt="">
+                  </div>
+               </div>
+               <div class="col-12 col-lg-6 d-flex flex-column justify-content-center overview-col">
+                  <span class="avenir-regular txt-clr-2 size-16 ltr-spc-3 font-600" data-aos="fade-up"
+                     data-aos-duration="1000">Overview</span>
+                  <h1 class="avenir-regular txt-clr-2 size-40 land-mark" data-aos="fade-up" data-aos-duration="1000">A Landmark
+                     That Rises<br>Above Your Expectations
+                  </h1>
+                  <ul data-aos="fade-up" data-aos-duration="1000">
+                     <li class="avenir-regular txt-clr-2 size-16">10.5ft Floor To Floor Height</li>
+                     <li class="avenir-regular txt-clr-2 size-16">Architectural Marvel Standing G+16 Storeys Tall.<br>Spread
+                        Across 0.79 Acres (Approx).
+                     </li>
+                     <li class="avenir-regular txt-clr-2 size-16">Free Hold Land</li>
+                     <li class="avenir-regular txt-clr-2 size-16">Grand Air-conditioned Entrance Lobby</li>
+                     <li class="avenir-regular txt-clr-2 size-16">Podium Car Parking With Ramp</li>
+                     <li class="avenir-regular txt-clr-2 size-16">First Habitable Floor Starts at Level 6</li>
+                     <li class="avenir-regular txt-clr-2 size-16">Premium Residences With Sundecks Across 11 Levels</li>
+                     <li class="avenir-regular txt-clr-2 size-16">Superlative Sky Life Indulgences</li>
+                  </ul>
+               </div>
+            </div>
+            <div class="container">
+               <div class="row">
+                  <div class="col-12 pb-5">
+                     <h2 class="avenir-regular txt-clr-2 size-32 text-center my-5" data-aos="fade-up" data-aos-duration="1000">A
+                        Seamless Blend of Sophistication and Style
+                     </h2>
+                     <!-- overview carousel start -->
+                     <div class="owl-overview owl-carousel owl-theme">
+                        <div class="item">
+                           <div>
+                              <img src="assets/img/overview/icon-1.png" alt="">
+                              <h3 class="avenir-regular txt-clr-2 size-16 text-center">2 Levels Podium Car Parking With Ramp</h3>
+                           </div>
+                        </div>
+                        <div class="item">
+                           <div>
+                              <img src="assets/img/overview/icon-2.png" alt="">
+                              <h3 class="avenir-regular txt-clr-2 size-16 text-center">Infinity-edge Aqua Pool</h3>
+                           </div>
+                        </div>
+                        <div class="item">
+                           <div>
+                              <img src="assets/img/overview/icon-3.png" alt="">
+                              <h3 class="avenir-regular txt-clr-2 size-16 text-center">10.5ft Floor To Floor Height</h3>
+                           </div>
+                        </div>
+                        <div class="item">
+                           <div>
+                              <img src="assets/img/overview/icon-4.png" alt="">
+                              <h3 class="avenir-regular txt-clr-2 size-16 text-center">EV Charging Points</h3>
+                           </div>
+                        </div>
+                        <div class="item">
+                           <div>
+                              <img src="assets/img/overview/icon-5.png" alt="">
+                              <h3 class="avenir-regular txt-clr-2 size-16 text-center">Free Hold Land</h3>
+                           </div>
+                        </div>
+                        <div class="item">
+                           <div>
+                              <img src="assets/img/overview/icon-6.png" alt="">
+                              <h3 class="avenir-regular txt-clr-2 size-16 text-center">Solar Panels</h3>
+                           </div>
+                        </div>
+                        <div class="item">
+                           <div>
+                              <img src="assets/img/overview/icon-7.png" alt="">
+                              <h3 class="avenir-regular txt-clr-2 size-16 text-center">35+ Lifestyle Amenities on Podium & Sky Level
+                                 (Velvet Club)
+                              </h3>
+                           </div>
+                        </div>
+                        <div class="item">
+                           <div>
+                              <img src="assets/img/overview/icon-8.png" alt="">
+                              <h3 class="avenir-regular txt-clr-2 size-16 text-center">Jain Derasar and Haveli 100 Mtrs From Site
+                              </h3>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- overview carousel end-->
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- overview end -->
+      <!-- amenities start -->
+      <section class="amenities" id="amenities">
+         <div class="container-fluid">
+            <div class="row">
+               <div
+                  class="col-12 col-md-12 col-lg-6 d-flex flex-column justify-content-center position-relative amenities-col overflow-hidden">
+                  <span class="avenir-regular size-16 ltr-spc-3 font-600" data-aos="fade-up"
+                     data-aos-duration="1000">Amenities</span>
+                  <h2 class="mb-4 mt-3" data-aos="fade-up" data-aos-duration="1000"><img src="assets/img/amenities/text.png"
+                     alt="text"></h2>
+                  <ul data-aos="fade-up" data-aos-duration="1000">
+                     <li class="avenir-regular size-16">Spread Across 15,000+ Sq. Ft.</li>
+                     <li class="avenir-regular size-16">Infinity Lap Pool With a Deck</li>
+                     <li class="avenir-regular size-16">Jacuzzi Seating</li>
+                     <li class="avenir-regular size-16">Kids Pool and Sitting Lounge</li>
+                     <li class="avenir-regular size-16">Senior Citizen Corner</li>
+                     <li class="avenir-regular size-16">Movie Lawn & Deck</li>
+                     <li class="avenir-regular size-16">Walking Jogging Track</li>
+                     <li class="avenir-regular size-16">Hammock Garden</li>
+                     <li class="avenir-regular size-16">Fully Equipped Fitness Club</li>
+                     <li class="avenir-regular size-16">Indoor Play Arena</li>
+                  </ul>
+                  <img src="assets/img/amenities/bg.png" class="position-absolute q-img" alt="q">
+               </div>
+               <div class="col-12 col-md-12 col-lg-6 p-0">
+                  <div class="amenities-top-carousel owl-carousel owl-theme">
+                     <div class="item">
+                        <img src="assets/img/amenities/01.jpg" alt="">
+                     </div>
+                     <div class="item">
+                        <img src="assets/img/amenities/03.jpg" alt="">
+                     </div>
+                     <div class="item">
+                        <img src="assets/img/amenities/04.jpg" alt="">
+                     </div>
+                     <div class="item">
+                        <img src="assets/img/amenities/05.jpg" alt="">
+                     </div>
+                     <div class="item">
+                        <img src="assets/img/amenities/06.jpg" alt="">
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row" id="podium">
+               <div class="col-12 col-md-12 col-lg-6 order-2 order-md-2 order-lg-1 p-0">
+                  <div class="amenities-bottom-carousel owl-carousel owl-theme">
+                     <div class="item">
+                        <img src="assets/img/amenities/1.jpg" alt="">
+                     </div>
+                     <div class="item">
+                        <img src="assets/img/amenities/2.jpg" alt="">
+                     </div>
+                     <div class="item">
+                        <img src="assets/img/amenities/3.jpg" alt="">
+                     </div>
+                     <div class="item">
+                        <img src="assets/img/amenities/4.jpg" alt="">
+                     </div>
+                     <div class="item">
+                        <img src="assets/img/amenities/5.jpg" alt="">
+                     </div>
+                     <div class="item">
+                        <img src="assets/img/amenities/6.jpg" alt="">
+                     </div>
+                  </div>
+               </div>
+               <div
+                  class="col-12 col-md-12 col-lg-6 order-1 order-md-1 order-lg-2 d-flex flex-column justify-content-center podium-col overflow-hidden position-relative">
+                  <h2 class="mb-4" data-aos="fade-up" data-aos-duration="1000"><img src="assets/img/amenities/text2.png"
+                     alt="text"></h2>
+                  <ul class="d-flex p-0 row" data-aos="fade-up" data-aos-duration="1000">
+                     <li class="list-unstyled col-12 col-lg-6">
+                        <ul>
+                           <li class="avenir-regular size-16">Spread Across 15,000+ Sq. Ft.</li>
+                           <li class="avenir-regular size-16">Kid's Creche</li>
+                           <li class="avenir-regular size-16 line-height-22 mb-2">Fully-equipped Co-working Arena</li>
+                           <li class="avenir-regular size-16 line-height-22">Multi-purpose Turf (2400 Sq. Ft.)</li>
+                           <li class="avenir-regular size-16">Walking Loop</li>
+                           <li class="avenir-regular size-16">Kid's Play Area</li>
+                           <li class="avenir-regular size-16">Pause Points</li>
+                           <li class="avenir-regular size-16">Parent's Seating</li>
+                           <!-- showin mobile start -->
+                           <li class="avenir-regular size-16 d-m-content d-lg-none">Sacred Garden With Misters</li>
+                           <li class="avenir-regular size-16 line-height-22 d-m-content d-lg-none">Peripheral Plantation &
+                              Plantation
+                              Island
+                           </li>
+                           <!-- showin mobile end -->
+                        </ul>
+                     </li>
+                     <li class="list-unstyled col-12 col-lg-6">
+                        <ul>
+                           <li class="avenir-regular size-16">Viewing Deck With Seating Cover</li>
+                           <li class="avenir-regular size-16 line-height-22 mb-2">Uber Modern Gymnasium With Cardio Section &
+                              Fitness Centre
+                           </li>
+                           <li class="avenir-regular size-16 line-height-22">Royal Banquet Hall With Pre-function Zone & Restroom
+                           </li>
+                           <li class="avenir-regular size-16">Plush Home Theatre (Add Image)</li>
+                           <li class="avenir-regular size-16">Indoor Games Arena (Add Image)</li>
+                           <li class="avenir-regular size-16">Steam Room (Add Image)</li>
+                           <!-- hide in mobile start -->
+                           <li class="avenir-regular size-16 d-none d-content">Sacred Garden With Misters</li>
+                           <li class="avenir-regular size-16 line-height-22 d-none d-content">Peripheral Plantation & Plantation
+                              Island
+                           </li>
+                           <!-- hide in mobile end -->
+                        </ul>
+                     </li>
+                  </ul>
+                  <img src="assets/img/amenities/bg-2.png" class="position-absolute c-img" alt="q">
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- amenities end -->
+      <!-- map on whitespace start medium-large screen -->
+      <section class="map d-none d-md-block" id="map">
+         <div class="position-absolute map-conatin">
+            <img src="assets/img/map.jpg" alt="map">
+            <a href="https://goo.gl/maps/NNuqPdTvTVUa5hBS6" target="_blank"><button class="maps-btn btn" data-aos="fade-up"
+               data-aos-duration="1000">View Google Map</button></a>
+         </div>
+      </section>
+      <!-- map on whitespace end medium-large screen -->
+      <!-- map on whitespace start small screen -->
+      <section class="map-mob d-block d-md-none" id="map">
+         <div class="mob-map-contain">
+            <img src="assets/img/map.jpg" class="map-img" alt="map">
+            <a href="https://goo.gl/maps/NNuqPdTvTVUa5hBS6" target="_blank"><button class="maps-btn btn" data-aos="fade-up"
+               data-aos-duration="1000">View Google Map</button></a>
+         </div>
+      </section>
+      <!-- map on whitespace end small screen -->
+      <!-- connectivity section start -->
+      <section class="connectivity">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <div class="mb-5">
+                     <span class="avenir-regular txt-clr-2 size-16 ltr-spc-3 font-600" data-aos="fade-up"
+                        data-aos-duration="1000">Connectivity</span>
+                     <h3 class="mt-3" data-aos="fade-up" data-aos-duration="1000"><img src="assets/img/connectivity/heading.png"
+                        alt="heading"></h3>
+                  </div>
+                  <div class="connectivity-carousel owl-carousel owl-theme">
+                     <div class="item">
+                        <h4 class="d-flex align-items-center avenir-regular txt-clr-2 size-18"><img
+                           src="assets/img/connectivity/icon-1.png" alt="">Seamless Connectivity</h4>
+                        <ul>
+                           
+                           <li class="avenir-regular txt-clr-2 size-16">Andheri East / West Subway - 1 Min</li>
+                           <li class="avenir-regular txt-clr-2 size-16">Metro Station (Ghatkopar to Versova) - 5 Mins</li>
+                           <li class="avenir-regular txt-clr-2 size-16">Metro Station (Gundavali, Andheri East to Dahisar)- 7 Mins</li>
+                           <li class="avenir-regular txt-clr-2 size-16">Andheri Railway (Churchgate to Virar
+                              & Andheri to Vashi) - 5 Mins
+                           </li>
+                           <li class="avenir-regular txt-clr-2 size-16">Western Express Highway - 7 Mins</li>
+                           <li class="avenir-regular txt-clr-2 size-16">Domestic Terminal 1 - B - 14 Mins</li>
+                           <li class="avenir-regular txt-clr-2 size-16">Chhatrapati Shivaji Maharaj
+                              International Airport (T2) - 17 Mins
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="item">
+                        <h4 class="d-flex align-items-center avenir-regular txt-clr-2 size-18"><img
+                           src="assets/img/connectivity/icon-2.png" alt="">Corporate Parks</h4>
+                        <ul>
+                           <li class="avenir-regular txt-clr-2 size-16">Rustomjee Natraj - 7 Mins</li>
+                           <li class="avenir-regular txt-clr-2 size-16">The Summit Business Bay - 7 Mins</li>
+                           <li class="avenir-regular txt-clr-2 size-16">Kanakia Wall Street - 9 Mins</li>
+                           <li class="avenir-regular txt-clr-2 size-16">Solitaire Corporate Park - 10 Mins</li>
+                        </ul>
+                     </div>
+                     <div class="item">
+                        <h4 class="d-flex align-items-center avenir-regular txt-clr-2 size-18"><img
+                           src="assets/img/connectivity/icon-3.png" alt="">School & Colleges</h4>
+                        <ul>
+                           <li class="avenir-regular txt-clr-2 size-16">School & Colleges</li>
+                           <li class="avenir-regular txt-clr-2 size-16">Chinai College - 6 Mins</li>
+                           <li class="avenir-regular txt-clr-2 size-16">Lady Visanji Academy - 8 Mins</li>
+                           <li class="avenir-regular txt-clr-2 size-16">CNMS School - 11 Mins</li>
+                           <li class="avenir-regular txt-clr-2 size-16">Arya Vidya Mandir - 13 Mins</li>
+                           <li class="avenir-regular txt-clr-2 size-16">NMIMS College - 15 Mins</li>
+                           <li class="avenir-regular txt-clr-2 size-16">Mithibai College - 15 Mins</li>
+                        </ul>
+                     </div>
+                     <div class="item">
+                        <h4 class="d-flex align-items-center avenir-regular txt-clr-2 size-18"><img
+                           src="assets/img/connectivity/icon-4.png" alt="">Malls</h4>
+                        <ul>
+                           <li class="avenir-regular txt-clr-2 size-16">Oberoi Mall - 17 Mins</li>
+                           <li class="avenir-regular txt-clr-2 size-16">Infiniti Mall (Oshiwara) - 20 Mins</li>
+                           <li class="avenir-regular txt-clr-2 size-16">Crystal Point Mall - 20 Mins</li>
+                           <li class="avenir-regular txt-clr-2 size-16">Inorbit Mall (Malad) - 28 Mins</li>
+                           <li class="avenir-regular txt-clr-2 size-16">Infiniti Mall (Malad) - 34 Mins</li>
+                        </ul>
+                     </div>
+                     <div class="item">
+                        <h4 class="d-flex align-items-center avenir-regular txt-clr-2 size-18"><img
+                           src="assets/img/connectivity/icon-5.png" alt="">Healthcare</h4>
+                        <ul>
+                           <li class="avenir-regular txt-clr-2 size-16">Criticare - 5 Mins</li>
+                           <li class="avenir-regular txt-clr-2 size-16">Sanjeevani Hospital
+                              (Sahar Road) - 5 Mins
+                           </li>
+                           <li class="avenir-regular txt-clr-2 size-16">Holy Spirit Hospital - 9 Mins</li>
+                        </ul>
+                     </div>
+                     <div class="item">
+                        <h4 class="d-flex align-items-center avenir-regular txt-clr-2 size-18"><img
+                           src="assets/img/connectivity/icon-6.png" alt="">5 Stars</h4>
+                        <ul>
+                           <li class="avenir-regular txt-clr-2 size-16">Courtyard by Marriott - 9 Mins</li>
+                           <li class="avenir-regular txt-clr-2 size-16">Hotel Saharstar - 10 Mins</li>
+                           <li class="avenir-regular txt-clr-2 size-16">The Leela - 15 Mins</li>
+                           <li class="avenir-regular txt-clr-2 size-16">ITC Maratha - 15 Mins</li>
+                           <li class="avenir-regular txt-clr-2 size-16">JW Marriott - 18 Mins</li>
+                        </ul>
+                     </div>
+                     <div class="item">
+                        <h4 class="d-flex align-items-center avenir-regular txt-clr-2 size-18"><img
+                           src="assets/img/connectivity/icon-7.png" alt="">Spiritual Atractions Like Mandirs
+                           & Derasars
+                        </h4>
+                        <ul>
+                           <li class="avenir-regular txt-clr-2 size-16">Shree Simandhar Swami Jain Mandir - 2 Mins</li>
+                           <li class="avenir-regular txt-clr-2 size-16">Haveli - 5 Mins</li>
+                           <li class="avenir-regular txt-clr-2 size-16">Ganpati Mandir - 6 Mins</li>
+                           <li class="avenir-regular txt-clr-2 size-16">Aadinath Jain Mandir - 10 Mins</li>
+                           <li class="avenir-regular txt-clr-2 size-16">Digambar Jain Mandir - 20 Mins</li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- connectivity section end -->
+      <!-- Plans section start -->
+      <section class="plans" id="plans">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <h6 class="text-center avenir-regular size-16" data-aos="fade-up" data-aos-duration="1000">Plans</h6>
+                  <h3 class="text-center avenir-regular size-40 mb-4" data-aos="fade-up" data-aos-duration="1000">An
+                     Illustration Of Efficient Expertise
                   </h3>
-                </div>
-              </div>
-
+               </div>
             </div>
-            <!-- overview carousel end-->
-          </div>
-        </div>
+            <div class="row" data-bs-toggle="modal" data-bs-target="#floor-enquiry-form">
+               <div class="col-10 col-md-12 col-lg-4 text-center mx-auto pb-4 pb-lg-0">
+                  <!-- <figure lg-background-color="white" class="blog-images" data-src="assets/img/plans/01.jpg" data-lg-size="1600-1126">
+                     <img src="assets/img/plans/01.jpg" />
+                     
+                     </figure> -->
+                  <a class="blog-images">
+                     <div class="position-relative hover-effect mb-3 -lg-1">
+                        <img class="fine-img" src="assets/img/plans/01.jpg" />
+                     </div>
+                  </a>
+                  <p class="text-center">Typical Floor Plan - Wing A & B</p>
+               </div>
+               <div class="col-10 col-md-12 col-lg-4 text-center mx-auto pb-4 pb-lg-0">
+                  <!-- <figure lg-background-color="white" class="blog-images" data-src="assets/img/plans/01.jpg" data-lg-size="1600-1126">
+                     <img src="assets/img/plans/02.jpg" />
+                     </figure> -->
+                  <a class="blog-images">
+                     <div class="position-relative hover-effect mb-3 mb-lg-1">
+                        <img class="fine-img" src="assets/img/plans/02.jpg" />
+                     </div>
+                  </a>
+                  <p class="text-center">Typical Floor Plan - Wing A & B</p>
+               </div>
+               <div class="col-10 col-md-12 col-lg-4 text-center mx-auto pb-4 pb-lg-0">
+                  <!-- <figure lg-background-color="white" class="blog-images" data-src="assets/img/plans/01.jpg" data-lg-size="1600-1126">
+                     <img src="assets/img/plans/03.jpg" />
+                     </figure> -->
+                  <a class="blog-images">
+                     <div class="position-relative hover-effect mb-3 mb-lg-1">
+                        <img class="fine-img" src="assets/img/plans/03.jpg" />
+                     </div>
+                  </a>
+                  <p class="text-center">Typical Floor Plan - Wing A & B</p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Plans section end -->
+      <button id="scrollToTopBtn" onclick="scrollToTop()"><img src="assets/img/d-arrow.png" alt="btn"></button>
+      <!-- footer start -->
+      <footer id="footer">
+         <div class="container">
+            <div class="row where-we-are py-5">
+               <div class="col-12 col-md-12 col-lg-6">
+                  <h4 class="avenir-regular txt-clr-2 size-36" data-aos="fade-up" data-aos-duration="1000">Where We're Located
+                  </h4>
+                  <ul data-aos="fade-up" data-aos-duration="1000">
+                     <li class="avenir-regular txt-clr-2 size-16 mb-3"><span class="line-height-2">Site Address:</span><br><a
+                        href="https://goo.gl/maps/NNuqPdTvTVUa5hBS6">Puri Creators, Bhaidas Bhuta Compound,<br>
+                        Old Nagardas Road Near Andheri East-West Subway,<br>
+                        Mumbai, Maharashtra - 400069.</a>
+                     </li>
+                     <li class="avenir-regular txt-clr-2 size-16 mb-3"><span class="line-height-2">Email:</span><br><a
+                        href="#">info@puricreators.com</a></li>
+                     <li class="avenir-regular txt-clr-2 size-16 mb-3"><span class="line-height-2">Call Us:</span><br><a href="tel:+91 70260 48000">+91 70260 48000</a> / <a href="tel:+022 4963 44 77">+022 4963 44 77</a>/<a href="tel:+022 4002 21 16">+022 4002 21 16</a></li>
+                     <li class="avenir-regular txt-clr-2 size-16 mb-3"><span class="line-height-2">MahaRERA Registration
+                        No.</span><br>P51800049868 | Available on <a href="#">www.maharera.mahaonline.gov.in</a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="col-12 col-md-12 col-lg-6">
+                  <div id=errmsg></div>
+                  <div id=msg></div>
+                  <form id="contactfrm" action="javascript:void(0);" method="POST"  data-aos="fade-up" data-aos-duration="1000">
+                     <div class="d-flex flex-lg-nowrap flex-wrap">
+                        <div class="form-floating mb-3 me-lg-3">
+                           <input type="text" class="form-control" placeholder="Name" maxlength="50" onkeyup="this.value=this.value.replace(/[^a-zA-Z \n\r.]+/g, '');" name="name" id="floatingInput1">
+                           <label for="floatingFname">First Name*</label>
+                        </div>
+                        <div class="form-floating mb-lg-0 mb-3">
+                          <input type="text" class="form-control" placeholder="Name" maxlength="50" onkeyup="this.value=this.value.replace(/[^a-zA-Z \n\r.]+/g, '');" name="lname" id="floatingPassword">
+                           <label for="floatingLname">Last Name*</label>
+                        </div>
+                     </div>
+                     <div class="d-flex flex-lg-nowrap flex-wrap">
+                        <div class="form-floating mb-3 me-lg-3">
+                            <input type="email" class="form-control" placeholder="Email" name="email" pattern="[A-Za-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}" onkeyup="this.value=this.value.replace(/[^a-zA-Z@.[0-9] \n\r.]+/g, '');" id="floatingInputemail">
+                           <label for="floatingInputemail">Email ID*</label>
+                        </div>
+                        <div class="form-floating mb-lg-0 mb-3">
+                          <input type="tel" class="form-control" placeholder="Phone" autocomplete="off" role="presentation" onkeyup="this.value=this.value.replace(/[^0-9]+/g,'');" onkeypress="if(this.value.length==10) return false;" name="mobile" id="floatingnumber">
+                           <label for="floatingnumber">Phone Number*</label>
+                        </div>
+                     </div>
+                     <div class="form-floating mb-5">
+                           <textarea name="message" rows="4" class="form-control" id="floatingTextarea2"
+                           placeholder="Your Requirements"></textarea>  
+                        <label for="floatingTextarea2">Message</label>
+                     </div>
+                     <input type="hidden" name="source" value="Footer Contact us">
+                     <button type="submit" id="btn-contact" name="submit" value="enquiry" class="mt-3 btn">Submit</button>
+                  </form>
+               </div>
+            </div>
+            <div class="row a-project py-5">
+               <div class="col-12 col-md-12 col-lg-6">
+                  <h4 class="avenir-regular txt-clr-2 size-22 mb-4" data-aos="fade-up" data-aos-duration="1000">A Project By
+                  </h4>
+                  <img src="assets/img/footer-images/footer-logo.png" class="mb-4" alt="logo" data-aos="fade-up"
+                     data-aos-duration="1000">
+                  <p class="avenir-regular txt-clr-2 size-14 deep-rooted" data-aos="fade-up" data-aos-duration="1000">
+                     Deep-rooted in values with gen-next ideas, the seeds
+                     of puri creators’ were sown in 2009. With an objective to do even the simplest of tasks differently as
+                     consultants, we acquired safe & environment-friendly redevelopment areas for realty leaders. Right from
+                     comprehending the project planning processes to ensuring protocols involving legal clearances, our team has
+                     played a major role in handling over 1000 acres of land parcels.
+                  </p>
+               </div>
+               <div class="col-12 col-md-12 col-lg-3">
+                  <h4 class="avenir-regular txt-clr-2 size-22 mb-4" data-aos="fade-up" data-aos-duration="1000">Quick Links</h4>
+                  <ul data-aos="fade-up" data-aos-duration="1000">
+                     <li class="avenir-regular txt-clr-2 size-16 mb-2"><a href="index.html">Home</a></li>
+                     <li class="avenir-regular txt-clr-2 size-16 mb-2"><a href="#overview">Overview</a></li>
+                     <li class="avenir-regular txt-clr-2 size-16 mb-2"><a href="#amenities">Amenities</a></li>
+                     <li class="avenir-regular txt-clr-2 size-16 mb-2"><a href="#map">Location</a></li>
+                     <li class="avenir-regular txt-clr-2 size-16 mb-2"><a href="#plans">Plans</a></li>
+                     <li class="avenir-regular txt-clr-2 size-16 mb-2"><a href="#footer">Contact Us</a></li>
+                  </ul>
+               </div>
+               <div class="col-12 col-md-12 col-lg-3">
+                  <h4 class="avenir-regular txt-clr-2 size-22 mb-4" data-aos="fade-up" data-aos-duration="1000">Follow Us</h4>
+                  <ul class="d-flex follow-us" data-aos="fade-up" data-aos-duration="1000">
+                     <li class="me-3"><a href="https://www.facebook.com/profile.php?id=100086435316066&mibextid=ZbWKwL" target="_blank"><img src="assets/img/footer-images/fb.png" alt="fb"></a></li>
+                     <li class="me-3"><a href="https://www.instagram.com/puricreators/" target="_blank"><img src="assets/img/footer-images/insta.png" alt="insta"></a></li>
+                     <li class="me-3"><a href="https://www.linkedin.com/company/puri-creators/" target="_blank"><img src="assets/img/footer-images/linkden.png" alt="linkden"></a></li>
+                  </ul>
+               </div>
+               <div class="col-12">
+                  <p class="avenir-regular txt-clr-2 size-12 pt-5 mt-5 disclaimer" data-aos="fade-up" data-aos-duration="1000">
+                     Disclaimer: The plans, specfications, images, furniture layout and other details herein are only indicative
+                     and the developer reserves the right to change any or all of these in the interest
+                     of the development, without prior notice or obligation as per applicable rules & regulations. This contains
+                     artistic impressions and stock images for illustrative purpose and no warranty
+                     is expressly or impliedly given that the completed development will comply in any degree with such artist's
+                     impression as depicted. All brands stated are subject to final decision of the
+                     project architect. Project registered as “Puri SeleQt” with MahaRERA Registration no. P51800049868. Project
+                     details available at website http://maharera.mahaonline.gov.in All financial
+                     offers if any they will be applicable at the sole discretion of the developer," and "as per offer validity."
+                     any payment plan is applicable as per the eligibility of the purchaser that will be
+                     confirmed by relevant designated financial institutions. *T&C apply.
+                  </p>
+               </div>
+            </div>
+            <div class="d-flex justify-content-lg-end  py-3">
+               <div class="px-5 copyright">
+                  <p class="txt-clr-2 size-14 m-0 copy-para">Copyrights @ 2023</p>
+               </div>
+               <div class="ps-lg-5 design-by">
+                  <p class="txt-clr-2 size-14 m-0 copy-para">Design by <a href="#" class="thought-interact">Thoughtinteract</a>
+                  </p>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <div class="enquiry-wrapper">
+         <div class="enquiry-box" onclick="window.open('tel:+917026048000')">
+            <div class="call-icon">
+               <img src="assets/img/icons/phone.svg" alt="">
+               <span class="mobvsisec">Call Now</span>
+            </div>
+            <div class="call-content">
+               <a href="tel:+917026048000">+91 7026048000</a>
+            </div>
+         </div>
+         <div class="enquiry-box" data-bs-toggle="modal" data-bs-target="#enquiry-form">
+            <div class="mail-icon">
+               <img src="assets/img/icons/email.svg" alt="">
+               <span class="mobvsisec">Enquiry Now</span>
+            </div>
+            <div class="mail-content">
+               <a href="#enquiry-form" class="enqForm">Enquiry</a>
+            </div>
+         </div>
+         <div class="enquiry-box d-none"
+            onclick="window.open('https://api.whatsapp.com/send?phone=91+917026048000&amp;text=Hi,%20I%20would%20like%20to%20enquire%20for%20the%20project%20')">
+            <div class="call-icon">
+               <img src="assets/img/icons/whatsapp.svg" alt="">
+               <span class="mobvsisec">Whatsapp Now</span>
+            </div>
+            <div class="call-content">
+               <a href="#">+91 7026048000</a>
+            </div>
+         </div>
       </div>
-    </div>
-  </section>
-  <!-- overview end -->
-
-  <!-- amenities start -->
-  <section class="amenities" id="amenities">
-    <div class="container-fluid">
-      <div class="row">
-        <div
-          class="col-12 col-md-12 col-lg-6 d-flex flex-column justify-content-center position-relative amenities-col overflow-hidden">
-          <span class="avenir-regular size-16 ltr-spc-3 font-600" data-aos="fade-up"
-            data-aos-duration="1000">Amenities</span>
-          <h2 class="mb-4 mt-3" data-aos="fade-up" data-aos-duration="1000"><img src="assets/img/amenities/text.png"
-              alt="text"></h2>
-          <ul data-aos="fade-up" data-aos-duration="1000">
-            <li class="avenir-regular size-16">Spread Across 15,000+ Sq. Ft.</li>
-            <li class="avenir-regular size-16">Infinity Pool With a Deck Bar</li>
-            <li class="avenir-regular size-16">Lap Pool</li>
-            <li class="avenir-regular size-16">Jacuzzi Seating</li>
-            <li class="avenir-regular size-16">Kids Pool and Sitting Lounge</li>
-            <li class="avenir-regular size-16">Senior Citizen Corner</li>
-            <li class="avenir-regular size-16">Movie Lawn & Deck</li>
-            <li class="avenir-regular size-16">Walking Jogging Track</li>
-            <li class="avenir-regular size-16">Hammock Garden</li>
-          </ul>
-          <img src="assets/img/amenities/bg.png" class="position-absolute q-img" alt="q">
-        </div>
-        <div class="col-12 col-md-12 col-lg-6 p-0">
-          <div class="amenities-top-carousel owl-carousel owl-theme">
-            <div class="item">
-              <img src="assets/img/amenities/01.jpg" alt="">
+      <!-- Modal -->
+      <div class="modal fade" id="enquiry-form" tabindex="-1" aria-labelledby="enquiry-formLabel" aria-hidden="true">
+         <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h5 class="modal-title" id="enquiry-formLabel">Please leave your details and we
+                     will get in
+                     touch with you
+                  </h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+               </div>
+               <div class="modal-body">
+                  <div id=errmsg></div>
+                  <div id=msg></div>
+                  <form id="popupEnq" action="javascript:void(0);" method="POST">
+                     <div class="row">
+                        <div class="col-12 mb-3">
+                           <input type="text" class="px-2 py-2 d-block w-100" placeholder="Name" maxlength="50"
+                              onkeyup="this.value=this.value.replace(/[^a-zA-Z \n\r.]+/g, '');" name="name" id="name">
+                        </div>
+                        <div class="col-12 mb-3">
+                           <input type="email" class="px-2  py-2 d-block w-100" placeholder="Email" name="email"
+                              pattern="[A-Za-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}"
+                              onkeyup="this.value=this.value.replace(/[^a-zA-Z@.[0-9] \n\r.]+/g, '');" id="email">
+                        </div>
+                        <div class="col-12 mb-3">
+                           <input type="tel" class="px-2 py-2  d-block w-100" placeholder="Phone" autocomplete="off"
+                              role="presentation" onkeyup="this.value=this.value.replace(/[^0-9]+/g,'');"
+                              onkeypress="if(this.value.length==10) return false;" name="mobile" id="mobile">
+                        </div>
+                        <div class="col-12">
+                           <input type="hidden" name="source" value="Enquiry Popup">
+                           <button type="submit" id="btn-pop" name="submit" value="enquiry" class="mt-3 btn">Submit</button>
+                        </div>
+                     </div>
+                  </form>
+               </div>
             </div>
-            <div class="item">
-              <img src="assets/img/amenities/03.jpg" alt="">
-            </div>
-            <div class="item">
-              <img src="assets/img/amenities/04.jpg" alt="">
-            </div>
-            <div class="item">
-              <img src="assets/img/amenities/05.jpg" alt="">
-            </div>
-            <div class="item">
-              <img src="assets/img/amenities/06.jpg" alt="">
-            </div>
-
-          </div>
-        </div>
+         </div>
       </div>
-      <div class="row" id="podium">
-        <div class="col-12 col-md-12 col-lg-6 order-2 order-md-2 order-lg-1 p-0">
-          <div class="amenities-bottom-carousel owl-carousel owl-theme">
-            <div class="item">
-              <img src="assets/img/amenities/1.jpg" alt="">
+      <!-- floor plan modal start -->
+      <div class="modal fade" id="floor-enquiry-form" tabindex="-1" aria-labelledby="floor-enquiry-formLabel" aria-hidden="true">
+         <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h5 class="modal-title" id="floor-enquiry-formLabel">Please leave your details and we will get in touch with you for the Floor Plans</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+               </div>
+               <div class="modal-body">
+                  <div id=errmsg></div>
+                  <div id=msg></div>
+                  <form id="floorplanfrm" action="javascript:void(0);" method="POST">
+                     <div class="row">
+                        <div class="col-12 mb-3">
+                           <input type="text" class="px-2 py-2 d-block w-100" placeholder="Name" maxlength="50"
+                              onkeyup="this.value=this.value.replace(/[^a-zA-Z \n\r.]+/g, '');" name="name" id="name">
+                        </div>
+                        <div class="col-12 mb-3">
+                           <input type="email" class="px-2  py-2 d-block w-100" placeholder="Email" name="email"
+                              pattern="[A-Za-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}"
+                              onkeyup="this.value=this.value.replace(/[^a-zA-Z@.[0-9] \n\r.]+/g, '');" id="email">
+                        </div>
+                        <div class="col-12 mb-3">
+                           <input type="tel" class="px-2 py-2  d-block w-100" placeholder="Phone" autocomplete="off"
+                              role="presentation" onkeyup="this.value=this.value.replace(/[^0-9]+/g,'');"
+                              onkeypress="if(this.value.length==10) return false;" name="mobile" id="mobile">
+                        </div>
+                        <div class="col-12">
+                           <input type="hidden" name="source" value="Plans Enquiry">
+                           <button type="submit" id="btn-floorplanfrm" name="submit" value="enquiry" class="mt-3 btn">Submit</button>
+                        </div>
+                     </div>
+                  </form>
+               </div>
             </div>
-            <div class="item">
-              <img src="assets/img/amenities/2.jpg" alt="">
-            </div>
-            <div class="item">
-              <img src="assets/img/amenities/3.jpg" alt="">
-            </div>
-            <div class="item">
-              <img src="assets/img/amenities/4.jpg" alt="">
-            </div>
-            <div class="item">
-              <img src="assets/img/amenities/5.jpg" alt="">
-            </div>
-            <div class="item">
-              <img src="assets/img/amenities/6.jpg" alt="">
-            </div>
-
-          </div>
-        </div>
-        <div
-          class="col-12 col-md-12 col-lg-6 order-1 order-md-1 order-lg-2 d-flex flex-column justify-content-center podium-col overflow-hidden position-relative">
-
-          <h2 class="mb-4" data-aos="fade-up" data-aos-duration="1000"><img src="assets/img/amenities/text2.png"
-              alt="text"></h2>
-          <ul class="d-flex p-0 row" data-aos="fade-up" data-aos-duration="1000">
-            <li class="list-unstyled col-12 col-lg-6">
-              <ul>
-                <li class="avenir-regular size-16">Spread Across 15,000+ Sq. Ft.</li>
-                <li class="avenir-regular size-16">Kid's Creche</li>
-                <li class="avenir-regular size-16 line-height-22 mb-2">Fully-equipped Co-working Arena</li>
-                <li class="avenir-regular size-16 line-height-22">Multi-purpose Turf (2400 Sq. Ft.)</li>
-                <li class="avenir-regular size-16">Walking Loop</li>
-                <li class="avenir-regular size-16">Kid's Play Area</li>
-                <li class="avenir-regular size-16">Pause Points</li>
-                <li class="avenir-regular size-16">Parent's Seating</li>
-                <!-- showin mobile start -->
-                <li class="avenir-regular size-16 d-m-content d-lg-none">Sacred Garden With Misters</li>
-                <li class="avenir-regular size-16 line-height-22 d-m-content d-lg-none">Peripheral Plantation &
-                  Plantation
-                  Island</li>
-                <!-- showin mobile end -->
-              </ul>
-            </li>
-            <li class="list-unstyled col-12 col-lg-6">
-              <ul>
-
-                <li class="avenir-regular size-16">Viewing Deck With Seating Cover</li>
-                <li class="avenir-regular size-16 line-height-22 mb-2">Uber Modern Gymnasium With Cardio Section &
-                  Fitness Centre</li>
-                <li class="avenir-regular size-16 line-height-22">Royal Banquet Hall With Pre-function Zone & Restroom
-                </li>
-                <li class="avenir-regular size-16">Plush Home Theatre (Add Image)</li>
-                <li class="avenir-regular size-16">Indoor Games Arena (Add Image)</li>
-                <li class="avenir-regular size-16">Steam Room (Add Image)</li>
-                <!-- hide in mobile start -->
-                <li class="avenir-regular size-16 d-none d-content">Sacred Garden With Misters</li>
-                <li class="avenir-regular size-16 line-height-22 d-none d-content">Peripheral Plantation & Plantation
-                  Island</li>
-                <!-- hide in mobile end -->
-              </ul>
-            </li>
-          </ul>
-          <img src="assets/img/amenities/bg-2.png" class="position-absolute c-img" alt="q">
-        </div>
+         </div>
       </div>
-    </div>
-  </section>
-  <!-- amenities end -->
-  <!-- map on whitespace start medium-large screen -->
-  <section class="map d-none d-md-block" id="map">
-    <div class="position-absolute map-conatin">
-      <img src="assets/img/map.jpg" alt="map">
-      <a href="https://goo.gl/maps/NNuqPdTvTVUa5hBS6" target="_blank"><button class="maps-btn btn" data-aos="fade-up"
-          data-aos-duration="1000">View Google Map</button></a>
-    </div>
-  </section>
-  <!-- map on whitespace end medium-large screen -->
-
-  <!-- map on whitespace start small screen -->
-  <section class="map-mob d-block d-md-none" id="map">
-    <div class="mob-map-contain">
-      <img src="assets/img/map.jpg" class="map-img" alt="map">
-      <a href="https://goo.gl/maps/NNuqPdTvTVUa5hBS6" target="_blank"><button class="maps-btn btn" data-aos="fade-up"
-        data-aos-duration="1000">View Google Map</button></a>
-    </div>
-  </section>
-  <!-- map on whitespace end small screen -->
-
-  <!-- connectivity section start -->
-  <section class="connectivity">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <div class="mb-5">
-            <span class="avenir-regular txt-clr-2 size-16 ltr-spc-3 font-600" data-aos="fade-up"
-              data-aos-duration="1000">Connectivity</span>
-            <h3 class="mt-3" data-aos="fade-up" data-aos-duration="1000"><img src="assets/img/connectivity/heading.png"
-                alt="heading"></h3>
-          </div>
-
-          <div class="connectivity-carousel owl-carousel owl-theme">
-            <div class="item">
-              <h4 class="d-flex align-items-center avenir-regular txt-clr-2 size-18"><img
-                  src="assets/img/connectivity/icon-1.png" alt="">Seamless Connectivity</h4>
-              <ul>
-                <li class="avenir-regular txt-clr-2 size-16">Andheri East / West Subway - 1 Min</li>
-                <li class="avenir-regular txt-clr-2 size-16">Metro Station (Ghatkopar to Versova) - 5 Mins</li>
-                <li class="avenir-regular txt-clr-2 size-16">Andheri Railway (Churchgate to Virar
-                  & Andheri to Vashi) - 5 Mins</li>
-                <li class="avenir-regular txt-clr-2 size-16">Western Express Highway - 7 Mins</li>
-                <li class="avenir-regular txt-clr-2 size-16">Domestic Terminal 1 - B - 14 Mins</li>
-                <li class="avenir-regular txt-clr-2 size-16">Chhatrapati Shivaji Maharaj
-                  International Airport (T2) - 17 Mins</li>
-              </ul>
-            </div>
-            <div class="item">
-              <h4 class="d-flex align-items-center avenir-regular txt-clr-2 size-18"><img
-                  src="assets/img/connectivity/icon-2.png" alt="">Corporate Parks</h4>
-              <ul>
-                <li class="avenir-regular txt-clr-2 size-16">Rustomjee Natraj - 7 Mins</li>
-                <li class="avenir-regular txt-clr-2 size-16">The Summit Business Bay - 7 Mins</li>
-                <li class="avenir-regular txt-clr-2 size-16">Kanakia Wall Street - 9 Mins</li>
-                <li class="avenir-regular txt-clr-2 size-16">Solitaire Corporate Park - 10 Mins</li>
-
-              </ul>
-            </div>
-            <div class="item">
-              <h4 class="d-flex align-items-center avenir-regular txt-clr-2 size-18"><img
-                  src="assets/img/connectivity/icon-3.png" alt="">School & Colleges</h4>
-              <ul>
-                <li class="avenir-regular txt-clr-2 size-16">School & Colleges</li>
-                <li class="avenir-regular txt-clr-2 size-16">Chinai College - 6 Mins</li>
-                <li class="avenir-regular txt-clr-2 size-16">Lady Visanji Academy - 8 Mins</li>
-                <li class="avenir-regular txt-clr-2 size-16">CNMS School - 11 Mins</li>
-                <li class="avenir-regular txt-clr-2 size-16">Arya Vidya Mandir - 13 Mins</li>
-                <li class="avenir-regular txt-clr-2 size-16">NMIMS College - 15 Mins</li>
-                <li class="avenir-regular txt-clr-2 size-16">Mithibai College - 15 Mins</li>
-              </ul>
-            </div>
-            <div class="item">
-              <h4 class="d-flex align-items-center avenir-regular txt-clr-2 size-18"><img
-                  src="assets/img/connectivity/icon-4.png" alt="">Malls</h4>
-              <ul>
-                <li class="avenir-regular txt-clr-2 size-16">Oberoi Mall - 17 Mins</li>
-                <li class="avenir-regular txt-clr-2 size-16">Infiniti Mall (Oshiwara) - 20 Mins</li>
-                <li class="avenir-regular txt-clr-2 size-16">Crystal Point Mall - 20 Mins</li>
-                <li class="avenir-regular txt-clr-2 size-16">Inorbit Mall (Malad) - 28 Mins</li>
-                <li class="avenir-regular txt-clr-2 size-16">Infiniti Mall (Malad) - 34 Mins</li>
-
-              </ul>
-            </div>
-            <div class="item">
-              <h4 class="d-flex align-items-center avenir-regular txt-clr-2 size-18"><img
-                  src="assets/img/connectivity/icon-5.png" alt="">Healthcare</h4>
-              <ul>
-                <li class="avenir-regular txt-clr-2 size-16">Criticare - 5 Mins</li>
-                <li class="avenir-regular txt-clr-2 size-16">Sanjeevani Hospital
-                  (Sahar Road) - 5 Mins</li>
-                <li class="avenir-regular txt-clr-2 size-16">Holy Spirit Hospital - 9 Mins</li>
-
-              </ul>
-            </div>
-            <div class="item">
-              <h4 class="d-flex align-items-center avenir-regular txt-clr-2 size-18"><img
-                  src="assets/img/connectivity/icon-6.png" alt="">5 Stars</h4>
-              <ul>
-                <li class="avenir-regular txt-clr-2 size-16">Courtyard by Marriott - 9 Mins</li>
-                <li class="avenir-regular txt-clr-2 size-16">Hotel Saharstar - 10 Mins</li>
-                <li class="avenir-regular txt-clr-2 size-16">The Leela - 15 Mins</li>
-                <li class="avenir-regular txt-clr-2 size-16">ITC Maratha - 15 Mins</li>
-                <li class="avenir-regular txt-clr-2 size-16">JW Marriott - 18 Mins</li>
-
-              </ul>
-            </div>
-            <div class="item">
-              <h4 class="d-flex align-items-center avenir-regular txt-clr-2 size-18"><img
-                  src="assets/img/connectivity/icon-7.png" alt="">Spiritual Atractions Like Mandirs
-                & Derasars</h4>
-              <ul>
-                <li class="avenir-regular txt-clr-2 size-16">Shree Simandhar Swami Jain Mandir - 2 Mins</li>
-                <li class="avenir-regular txt-clr-2 size-16">Haveli - 5 Mins</li>
-                <li class="avenir-regular txt-clr-2 size-16">Ganpati Mandir - 6 Mins</li>
-                <li class="avenir-regular txt-clr-2 size-16">Aadinath Jain Mandir - 10 Mins</li>
-                <li class="avenir-regular txt-clr-2 size-16">Digambar Jain Mandir - 20 Mins</li>
-
-              </ul>
-            </div>
-
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- connectivity section end -->
-  <!-- Plans section start -->
-  <section class="plans" id="plans">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <h6 class="text-center avenir-regular size-16" data-aos="fade-up" data-aos-duration="1000">Plans</h6>
-          <h3 class="text-center avenir-regular size-40 mb-4" data-aos="fade-up" data-aos-duration="1000">An
-            Illustration Of Efficient Expertise</h3>
-        </div>
-      </div>
-      <div class="row" data-bs-toggle="modal" data-bs-target="#floor-enquiry-form">
-        <div class="col-10 col-md-12 col-lg-4 text-center mx-auto pb-4 pb-lg-0">
-          <!-- <figure lg-background-color="white" class="blog-images" data-src="assets/img/plans/01.jpg" data-lg-size="1600-1126">
-            <img src="assets/img/plans/01.jpg" />
-            
-          </figure> -->
-          <a class="blog-images">
-            <div class="position-relative hover-effect mb-3 -lg-1">
-              <img class="fine-img" src="assets/img/plans/01.jpg" />
-            </div>
-          </a>
-          <p class="text-center">Typical Floor Plan - Wing A & B</p>
-        </div>
-
-        <div class="col-10 col-md-12 col-lg-4 text-center mx-auto pb-4 pb-lg-0">
-          <!-- <figure lg-background-color="white" class="blog-images" data-src="assets/img/plans/01.jpg" data-lg-size="1600-1126">
-            <img src="assets/img/plans/02.jpg" />
-          </figure> -->
-          <a class="blog-images">
-            <div class="position-relative hover-effect mb-3 mb-lg-1">
-              <img class="fine-img" src="assets/img/plans/02.jpg" />
-            </div>
-          </a>
-          <p class="text-center">Typical Floor Plan - Wing A & B</p>
-        </div>
-
-        <div class="col-10 col-md-12 col-lg-4 text-center mx-auto pb-4 pb-lg-0">
-          <!-- <figure lg-background-color="white" class="blog-images" data-src="assets/img/plans/01.jpg" data-lg-size="1600-1126">
-            <img src="assets/img/plans/03.jpg" />
-          </figure> -->
-          <a class="blog-images">
-            <div class="position-relative hover-effect mb-3 mb-lg-1">
-              <img class="fine-img" src="assets/img/plans/03.jpg" />
-            </div>
-          </a>
-          <p class="text-center">Typical Floor Plan - Wing A & B</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Plans section end -->
-  <button id="scrollToTopBtn" onclick="scrollToTop()"><img src="assets/img/d-arrow.png" alt="btn"></button>
-  <!-- footer start -->
-  <footer id="footer">
-    <div class="container">
-      <div class="row where-we-are py-5">
-        <div class="col-12 col-md-12 col-lg-6">
-          <h4 class="avenir-regular txt-clr-2 size-36" data-aos="fade-up" data-aos-duration="1000">Where We're Located
-          </h4>
-          <ul data-aos="fade-up" data-aos-duration="1000">
-            <li class="avenir-regular txt-clr-2 size-16 mb-3"><span class="line-height-2">Site Address:</span><br><a
-                href="https://goo.gl/maps/NNuqPdTvTVUa5hBS6">Puri Creators, Bhaidas Bhuta Compound,<br>
-                Old Nagardas Road Near Andheri East-West Subway,<br>
-                Mumbai, Maharashtra - 400069.</a></li>
-            <li class="avenir-regular txt-clr-2 size-16 mb-3"><span class="line-height-2">Email:</span><br><a
-                href="#">info@puricreators.com</a></li>
-            <li class="avenir-regular txt-clr-2 size-16 mb-3"><span class="line-height-2">Call Us:</span><br><a
-                href="#">+022 4963 44 77</a>/<a href="#">+022 4002 21 16</a>/<a href="#">+91 70260 48000</a></li>
-            <li class="avenir-regular txt-clr-2 size-16 mb-3"><span class="line-height-2">MahaRERA Registration
-                No.</span><br>P51800049868 | Available on <a href="#">www.maharera.mahaonline.gov.in</a></li>
-          </ul>
-        </div>
-        <div class="col-12 col-md-12 col-lg-6">
-          <form data-aos="fade-up" data-aos-duration="1000">
-            <div class="d-flex flex-lg-nowrap flex-wrap">
-              <div class="form-floating mb-3 me-lg-3">
-                <input type="text" class="form-control" id="floatingInput" placeholder="FirstName">
-                <label for="floatingFname">First Name*</label>
-              </div>
-              <div class="form-floating mb-lg-0 mb-3">
-                <input type="text" class="form-control" id="floatingPassword" placeholder="LastName">
-                <label for="floatingLname">Last Name*</label>
-              </div>
-            </div>
-            <div class="d-flex flex-lg-nowrap flex-wrap">
-              <div class="form-floating mb-3 me-lg-3">
-                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                <label for="floatingInput">Email ID*</label>
-              </div>
-              <div class="form-floating mb-lg-0 mb-3">
-                <input type="number" class="form-control" id="floatingPassword" placeholder="Password">
-                <label for="floatingPassword">Phone Number*</label>
-              </div>
-            </div>
-            <div class="form-floating mb-5">
-              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
-                style="height: 100px"></textarea>
-              <label for="floatingTextarea2">Message</label>
-            </div>
-            <button type="submit" class="btn">Submit</button>
-          </form>
-        </div>
-      </div>
-      <div class="row a-project py-5">
-        <div class="col-12 col-md-12 col-lg-6">
-          <h4 class="avenir-regular txt-clr-2 size-22 mb-4" data-aos="fade-up" data-aos-duration="1000">A Project By
-          </h4>
-          <img src="assets/img/footer-images/footer-logo.png" class="mb-4" alt="logo" data-aos="fade-up"
-            data-aos-duration="1000">
-          <p class="avenir-regular txt-clr-2 size-14 deep-rooted" data-aos="fade-up" data-aos-duration="1000">
-            Deep-rooted in values with gen-next ideas, the seeds
-            of puri creators’ were sown in 2009. With an objective to do even the simplest of tasks differently as
-            consultants, we acquired safe & environment-friendly redevelopment areas for realty leaders. Right from
-            comprehending the project planning processes to ensuring protocols involving legal clearances, our team has
-            played a major role in handling over 1000 acres of land parcels.</p>
-        </div>
-        <div class="col-12 col-md-12 col-lg-3">
-          <h4 class="avenir-regular txt-clr-2 size-22 mb-4" data-aos="fade-up" data-aos-duration="1000">Quick Links</h4>
-          <ul data-aos="fade-up" data-aos-duration="1000">
-            <li class="avenir-regular txt-clr-2 size-16 mb-2"><a href="index.html">Home</a></li>
-            <li class="avenir-regular txt-clr-2 size-16 mb-2"><a href="#overview">Overview</a></li>
-            <li class="avenir-regular txt-clr-2 size-16 mb-2"><a href="#amenities">Amenities</a></li>
-            <li class="avenir-regular txt-clr-2 size-16 mb-2"><a href="#map">Location</a></li>
-            <li class="avenir-regular txt-clr-2 size-16 mb-2"><a href="#plans">Plans</a></li>
-            <li class="avenir-regular txt-clr-2 size-16 mb-2"><a href="#footer">Contact Us</a></li>
-          </ul>
-        </div>
-        <div class="col-12 col-md-12 col-lg-3">
-          <h4 class="avenir-regular txt-clr-2 size-22 mb-4" data-aos="fade-up" data-aos-duration="1000">Follow Us</h4>
-          <ul class="d-flex follow-us" data-aos="fade-up" data-aos-duration="1000">
-            <li class="me-3"><a href="#"><img src="assets/img/footer-images/fb.png" alt="fb"></a></li>
-            <li class="me-3"><a href="#"><img src="assets/img/footer-images/insta.png" alt="insta"></a></li>
-            <li class="me-3"><a href="#"><img src="assets/img/footer-images/youtube.png" alt="youtube"></a></li>
-          </ul>
-        </div>
-        <div class="col-12">
-          <p class="avenir-regular txt-clr-2 size-12 pt-5 mt-5 disclaimer" data-aos="fade-up" data-aos-duration="1000">
-            Disclaimer: The plans, specfications, images, furniture layout and other details herein are only indicative
-            and the developer reserves the right to change any or all of these in the interest
-            of the development, without prior notice or obligation as per applicable rules & regulations. This contains
-            artistic impressions and stock images for illustrative purpose and no warranty
-            is expressly or impliedly given that the completed development will comply in any degree with such artist's
-            impression as depicted. All brands stated are subject to final decision of the
-            project architect. Project registered as “Puri SeleQt” with MahaRERA Registration no. P51800049868. Project
-            details available at website http://maharera.mahaonline.gov.in All financial
-            offers if any they will be applicable at the sole discretion of the developer," and "as per offer validity."
-            any payment plan is applicable as per the eligibility of the purchaser that will be
-            confirmed by relevant designated financial institutions. *T&C apply.</p>
-        </div>
-      </div>
-      <div class="d-flex justify-content-lg-end  py-3">
-        <div class="px-5 copyright">
-          <p class="txt-clr-2 size-14 m-0 copy-para">Copyrights @ 2023</p>
-        </div>
-        <div class="ps-lg-5 design-by">
-          <p class="txt-clr-2 size-14 m-0 copy-para">Design by <a href="#" class="thought-interact">Thoughtinteract</a>
-          </p>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <div class="enquiry-wrapper">
-    <div class="enquiry-box" onclick="window.open('tel:+917026048000')">
-      <div class="call-icon">
-        <img src="assets/img/icons/phone.svg" alt="">
-        <span class="mobvsisec">Call Now</span>
-      </div>
-      <div class="call-content">
-        <a href="tel:+917026048000">+91 7026048000</a>
-      </div>
-    </div>
-    <div class="enquiry-box" data-bs-toggle="modal" data-bs-target="#enquiry-form">
-      <div class="mail-icon">
-        <img src="assets/img/icons/email.svg" alt="">
-        <span class="mobvsisec">Enquiry Now</span>
-      </div>
-      <div class="mail-content">
-        <a href="#enquiry-form" class="enqForm">Enquiry</a>
-      </div>
-    </div>
-    <div class="enquiry-box d-none"
-      onclick="window.open('https://api.whatsapp.com/send?phone=91+917026048000&amp;text=Hi,%20I%20would%20like%20to%20enquire%20for%20the%20project%20')">
-      <div class="call-icon">
-        <img src="assets/img/icons/whatsapp.svg" alt="">
-        <span class="mobvsisec">Whatsapp Now</span>
-      </div>
-      <div class="call-content">
-        <a href="#">+91 7026048000</a>
-      </div>
-    </div>
-  </div>
-
-  <!-- Modal -->
-  <div class="modal fade" id="enquiry-form" tabindex="-1" aria-labelledby="enquiry-formLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="enquiry-formLabel">Please leave your details and we
-            will get in
-            touch with you</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <div id=errmsg></div>
-          <div id=msg></div>
-          <form id="popupEnq" action="javascript:void(0);" method="POST">
-            <div class="row">
-              <div class="col-12 mb-3">
-                <input type="text" class="px-2 py-2 d-block w-100" placeholder="Name" maxlength="50"
-                  onkeyup="this.value=this.value.replace(/[^a-zA-Z \n\r.]+/g, '');" name="name" id="name">
-              </div>
-              <div class="col-12 mb-3">
-                <input type="email" class="px-2  py-2 d-block w-100" placeholder="Email" name="email"
-                  pattern="[A-Za-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}"
-                  onkeyup="this.value=this.value.replace(/[^a-zA-Z@.[0-9] \n\r.]+/g, '');" id="email">
-              </div>
-              <div class="col-12 mb-3">
-                <input type="tel" class="px-2 py-2  d-block w-100" placeholder="Phone" autocomplete="off"
-                  role="presentation" onkeyup="this.value=this.value.replace(/[^0-9]+/g,'');"
-                  onkeypress="if(this.value.length==10) return false;" name="mobile" id="mobile">
-              </div>
-              <div class="col-12">
-                <input type="hidden" name="source" value="Enquiry Popup">
-                <button type="submit" id="btn-pop" name="submit" value="enquiry" class="mt-3 btn">Submit</button>
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- floor plan modal start -->
-  <div class="modal fade" id="floor-enquiry-form" tabindex="-1" aria-labelledby="floor-enquiry-formLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="floor-enquiry-formLabel">Please leave your details and we will get in touch with you for the Floor Plans</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <div id=errmsg></div>
-          <div id=msg></div>
-          <form id="popupEnq" action="javascript:void(0);" method="POST">
-            <div class="row">
-              <div class="col-12 mb-3">
-                <input type="text" class="px-2 py-2 d-block w-100" placeholder="Name" maxlength="50"
-                  onkeyup="this.value=this.value.replace(/[^a-zA-Z \n\r.]+/g, '');" name="name" id="name">
-              </div>
-              <div class="col-12 mb-3">
-                <input type="email" class="px-2  py-2 d-block w-100" placeholder="Email" name="email"
-                  pattern="[A-Za-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}"
-                  onkeyup="this.value=this.value.replace(/[^a-zA-Z@.[0-9] \n\r.]+/g, '');" id="email">
-              </div>
-              <div class="col-12 mb-3">
-                <input type="tel" class="px-2 py-2  d-block w-100" placeholder="Phone" autocomplete="off"
-                  role="presentation" onkeyup="this.value=this.value.replace(/[^0-9]+/g,'');"
-                  onkeypress="if(this.value.length==10) return false;" name="mobile" id="mobile">
-              </div>
-              <div class="col-12">
-                <input type="hidden" name="source" value="Enquiry Popup">
-                <button type="submit" id="btn-pop" name="submit" value="enquiry" class="mt-3 btn">Submit</button>
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-<!-- floor plan modal end -->
-  <!-- footer end -->
-  <!-- Optional JavaScript; choose one of the two! -->
-  <!-- jquery -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
-    integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <!-- owl-carousel -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <!-- Light Gallery -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/lightgallery.min.js"
-    integrity="sha512-dSI4QnNeaXiNEjX2N8bkb16B7aMu/8SI5/rE6NIa3Hr/HnWUO+EAZpizN2JQJrXuvU7z0HTgpBVk/sfGd0oW+w=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <!-- aos -->
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-
-  <script src="assets/js/main.js"></script>
-  <!-- Option 1: Bootstrap Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
-  <script type="text/javascript" charset="utf-8">
-    $(window).on('load', function () {
-      $('#enquiry-form').modal('show');
-    });
-  </script>
-  <!-- floor plan modal script -->
-  <!-- <script type="text/javascript" charset="utf-8">
-    $(window).on('load', function () {
-      $('#floor-enquiry-form').modal('show');
-    });
-  </script> -->
-</body>
-
+      <!-- floor plan modal end -->
+      <!-- footer end -->
+      <!-- Optional JavaScript; choose one of the two! -->
+      <!-- jquery -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+         integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <!-- owl-carousel -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+         integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <!-- Light Gallery -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/lightgallery.min.js"
+         integrity="sha512-dSI4QnNeaXiNEjX2N8bkb16B7aMu/8SI5/rE6NIa3Hr/HnWUO+EAZpizN2JQJrXuvU7z0HTgpBVk/sfGd0oW+w=="
+         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <!-- aos -->
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+         AOS.init();
+      </script>
+      <script src="assets/js/main.js"></script>
+      <!-- Option 1: Bootstrap Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+         crossorigin="anonymous"></script>
+      <script type="text/javascript" charset="utf-8">
+         $(window).on('load', function () {
+           $('#enquiry-form').modal('show');
+         });
+      </script>
+      <script src="assets/forms/js/validation.js"></script>
+      <script src="assets/forms/js/ajax-form.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9.3.17/dist/sweetalert2.all.min.js"></script>
+   </body>
 </html>
