@@ -317,13 +317,58 @@ function mouseLeave() {
 
 // active-navlinks start
 document.addEventListener("scroll", function() {
-    var navLinks = document.getElementsByClassName("nav-link");
+    var navLinks = document.getElementsByClassName("cust-nav-link");
     for (var i = 0; i < navLinks.length; i++) {
       var sectionId = navLinks[i].getAttribute("href").slice(1);
       var section = document.getElementById(sectionId);
       var rect = section.getBoundingClientRect();
       
       if (rect.top >= 0 && rect.top <= window.innerHeight) {
+        navLinks[i].classList.add("active");
+      } else {
+        navLinks[i].classList.remove("active");
+      }
+    }
+  });
+
+  document.addEventListener("scroll", function() {
+    var navLinks = document.getElementsByClassName("cust-nav-life");
+    for (var i = 0; i < navLinks.length; i++) {
+      var sectionId = navLinks[i].getAttribute("href").slice(1);
+      var section = document.getElementById(sectionId);
+      var rect = section.getBoundingClientRect();
+      
+      if (rect.top >= 0 && rect.top <= window.innerHeight * 0.5) {
+        navLinks[i].classList.add("active");
+      } else {
+        navLinks[i].classList.remove("active");
+      }
+    }
+  });
+
+  document.addEventListener("scroll", function() {
+    var navLinks = document.getElementsByClassName("cust-nav-podium");
+    for (var i = 0; i < navLinks.length; i++) {
+      var sectionId = navLinks[i].getAttribute("href").slice(1);
+      var section = document.getElementById(sectionId);
+      var rect = section.getBoundingClientRect();
+      
+      if (rect.top >= 0 && rect.top <= window.innerHeight * 0.5) {
+        navLinks[i].classList.add("active");
+      } else {
+        navLinks[i].classList.remove("active");
+      }
+    }
+  });
+
+  document.addEventListener("scroll", function() {
+    var navLinks = document.getElementsByClassName("cust-nav-plan");
+    for (var i = 0; i < navLinks.length; i++) {
+      var sectionId = navLinks[i].getAttribute("href").slice(1);
+      var section = document.getElementById(sectionId);
+      var rect = section.getBoundingClientRect();
+      
+      if (rect.top >= 0 && rect.top <= window.innerHeight * 0.5) {
         navLinks[i].classList.add("active");
       } else {
         navLinks[i].classList.remove("active");
